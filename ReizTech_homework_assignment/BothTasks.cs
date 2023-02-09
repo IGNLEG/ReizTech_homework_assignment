@@ -154,7 +154,7 @@
         if (branches.branches.Count == 0) branchDepths.Add(CalculateTreeDepth(null)); //so that method would enter the null value below bottom nodes
                                                                                       //an alternative would be to add 1 to the returned value in call statement
 
-        return branchDepths.Max() + 1;
+        return branchDepths.Max() + 1; //finds the max value out of all subtree depths and adds one (itselves depth)
     }
     /// <summary>
     /// Class for tree 
