@@ -4,6 +4,7 @@
     {
         FirstTask();
         SecondTask();
+        Console.Read();
     }
     //--------------------------------------------first task starts here------------------------------------------------------------
 
@@ -58,7 +59,7 @@
                 answerDegrees = CalculateDegrees(hourDegrees, minuteDegrees);
                 break;
         }
-        Console.WriteLine("Lesser angle between the hour and minute hands is: \n" + answerDegrees + " degrees.");
+        Console.WriteLine("Lesser angle between the hour and minute hands is: \n" + answerDegrees + " degrees.\n");
     }
 
 
